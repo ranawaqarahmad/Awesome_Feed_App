@@ -1,0 +1,82 @@
+:root {
+  --green: #02976c;
+  --light-green: #12b596;
+  --grey: #acacac;
+  --white: #fff;
+  --black: #000;
+  --blue: #0071ff;
+}
+
+.btn {
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.btn-green {
+  background-color: var(--green);
+  border: 1px solid var(--green);
+  color: var(--white);
+}
+
+.btn-light-green {
+  background-color: var(--light-green);
+  border: 1px solid var(--light-green);
+  color: var(--white);
+}
+
+.btn-grey {
+  background-color: var(--grey);
+  border: 1px solid var(--grey);
+  color: var(--white);
+}
+
+.btn-white {
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  color: var(--black);
+}
+
+.btn-blue {
+  background-color: var(--blue);
+  border: 1px solid var(--blue);
+  color: var(--white);
+}
+
+.btn-sm {
+  padding: 15px 22px;
+}
+
+.btn-md {
+  padding: 15px 32px;
+}
+
+.btn-lg {
+  padding: 15px 40px;
+}
+
+.btn-xlg {
+  padding: 15px 43px;
+}
+
+@media screen and (max-width: 1024px) {
+  .btn {
+    font-size: 10px;
+  }
+  .btn-sm {
+    padding: 7px 11px;
+  }
+
+  .btn-md {
+    padding: 7px 16px;
+  }
+
+  .btn-lg {
+    padding: 7px 20px;
+  }
+
+  .btn-xlg {
+    padding: 7px 21px;
+  }
+}

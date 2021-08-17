@@ -1,0 +1,25 @@
+.p-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.p-secnd {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 20px; */
+}
+
+.p-secnd p {
+  font-size: 16px;
+}
+
+/* .light-grey-bg {
+  background: #f5f5f5 0% 0% no-repeat padding-box;
+  box-shadow: 0px 11px 17px #d3dae270;
+  border-radius: 15px;
+  /* padding: 25px; */
+
+tr {
+  border: none;
+}

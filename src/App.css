@@ -1,38 +1,136 @@
+body {
+  font-family: "Fira Sans", sans-serif;
+}
+
 .App {
+  background: #edf0f4 0% 0% no-repeat padding-box;
+  padding: 45px 32px;
+}
+
+/* Custom Classes */
+.m-10 {
+  margin: 10px;
+}
+.m-20 {
+  margin: 20px;
+}
+.m-tb-30 {
+  margin: 30px 0;
+}
+.m-t--10 {
+  margin-top: -10px;
+}
+.p-10 {
+  padding: 10px;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-45 {
+  padding: 45px;
+}
+.txt-center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.d-flex {
   display: flex;
+}
+.f-dir-col {
   flex-direction: column;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.align-items-center {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.inline-ul {
+  display: inline;
+}
+.inline-ul li {
+  display: inline;
+}
+.m-0 {
+  margin: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Text Color */
+.dark-txt {
+  color: #202d35;
+}
+.dark-2-txt {
+  color: #3c505e;
+}
+.light-txt {
+  color: #acacac;
+}
+
+.red {
+  color: #f46060;
+}
+
+.green {
+  color: #3bb54a;
+}
+.blue {
+  color: #2655aa;
+}
+/* Text Size */
+.t-lg {
+  font-size: 24px;
+}
+
+.t-md {
+  font-size: 18px;
+}
+
+.t-sm {
+  font-size: 16px;
+}
+
+.t-xsm {
+  font-size: 13px !important;
+  line-height: 26px !important;
+}
+
+/* Text Style */
+
+.t-i {
+  font-style: italic;
+}
+
+/* Font Weight */
+
+.semibold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+@media screen and (max-width: 1024px) {
+  .t-xsm {
+    font-size: 10px !important;
   }
-  to {
-    transform: rotate(360deg);
+  .t-lg {
+    font-size: 17px;
+  }
+
+  .t-md {
+    font-size: 13px;
+  }
+
+  .t-sm {
+    font-size: 12px;
   }
 }
