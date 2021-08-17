@@ -5,7 +5,7 @@ const Wtdn = () => {
   return (
     <Card className="m-10">
       <div className="d-main">
-        <h1 className="t-lg dark-txt">What to do next</h1>
+        <h1 className="primary-heading dark-txt">What to do next</h1>
         <p className="light-txt t-xsm">
           If you don’t have a product catalog, you have to create one:
         </p>

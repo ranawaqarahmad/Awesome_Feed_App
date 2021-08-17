@@ -7,7 +7,7 @@ const Hwta = () => {
     <Card className="m-10 txt-center">
       <LightGreyBg className="p-45">
         <div className="h-main">
-          <h1 className="dark-txt t-lg">Happy with the app?</h1>
+          <h1 className="dark-txt primary-heading">Happy with the app?</h1>
           <img src={ImgStar} alt="star" />
         </div>
 

@@ -5,7 +5,7 @@ const Faq = () => {
   return (
     <Card className="m-10 d-flex f-dir-col justify-content-between">
       <div className="f-main">
-        <h1 className="t-lg dark-txt">FAQ’s</h1>
+        <h1 className="primary-heading dark-txt">FAQ’s</h1>
         <p className="dark-2-txt t-xsm">
           <strong>How often are products and feeds updated?</strong>
         </p>

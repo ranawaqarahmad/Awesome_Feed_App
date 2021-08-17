@@ -10,8 +10,9 @@
 .btn {
   border-radius: 15px;
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   cursor: pointer;
+  padding: 1rem 1.5rem;
 }
 
 .btn-green {
@@ -44,7 +45,7 @@
   color: var(--white);
 }
 
-.btn-sm {
+/* .btn-sm {
   padding: 15px 22px;
 }
 
@@ -58,25 +59,10 @@
 
 .btn-xlg {
   padding: 15px 43px;
-}
+} */
 
 @media screen and (max-width: 1024px) {
   .btn {
-    font-size: 10px;
-  }
-  .btn-sm {
-    padding: 7px 11px;
-  }
-
-  .btn-md {
-    padding: 7px 16px;
-  }
-
-  .btn-lg {
-    padding: 7px 20px;
-  }
-
-  .btn-xlg {
-    padding: 7px 21px;
+    padding: 0.8rem 1.1rem;
   }
 }

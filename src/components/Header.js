@@ -13,38 +13,52 @@ const Header = () => {
         </div>
       </div>
 
-      <Button className="btn t-xsm" buttonStyle="btn-green" buttonSize="btn-md">
-        Change Plan
-      </Button>
-      <Button
-        className="btn t-xsm"
-        buttonStyle="btn-light-green"
-        buttonSize="btn-lg"
-      >
-        Add a product feed
-      </Button>
-      <Button
-        className="btn t-xsm"
-        buttonStyle="btn-light-green"
-        buttonSize="btn-md"
-      >
-        Edit settings
-      </Button>
-      <Button
-        className="btn t-xsm"
-        buttonStyle="btn-light-green"
-        buttonSize="btn-lg"
-      >
-        Update products & feeds
-      </Button>
-      <Button className="btn t-xsm" buttonStyle="btn-grey" buttonSize="btn-sm">
-        Edit Google
-      </Button>
+      <div className="btn-container">
+        <Button
+          className="btn t-xsm"
+          buttonStyle="btn-green"
+          buttonSize="btn-md"
+        >
+          Change Plan
+        </Button>
+        <Button
+          className="btn t-xsm"
+          buttonStyle="btn-light-green"
+          buttonSize="btn-lg"
+        >
+          Add a product feed
+        </Button>
+        <Button
+          className="btn t-xsm"
+          buttonStyle="btn-light-green"
+          buttonSize="btn-md"
+        >
+          Edit settings
+        </Button>
+        <Button
+          className="btn t-xsm"
+          buttonStyle="btn-light-green"
+          buttonSize="btn-lg"
+        >
+          Update products & feeds
+        </Button>
+        <Button
+          className="btn t-xsm"
+          buttonStyle="btn-grey"
+          buttonSize="btn-sm"
+        >
+          Edit Google
+        </Button>
 
-      <Button className="btn t-xsm" buttonStyle="btn-white" buttonSize="btn-sm">
-        <i className="fas fa-user light-txt"></i> Kamal Ali{" "}
-        <i className="fas fa-chevron-down"></i>
-      </Button>
+        <Button
+          className="btn t-xsm"
+          buttonStyle="btn-white"
+          buttonSize="btn-sm"
+        >
+          <i className="fas fa-user light-txt"></i> Kamal Ali{" "}
+          <i className="fas fa-chevron-down"></i>
+        </Button>
+      </div>
     </header>
   );
 };
