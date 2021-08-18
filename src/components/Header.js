@@ -1,8 +1,24 @@
+import { useHistory } from "react-router-dom";
 import { Button } from "./Button";
 import "./Header.css";
-import Logo from "./images/logo.png";
+import Logo from "./assets/images/logo.png";
 
-const Header = () => {
+const Header = (props) => {
+  const history = useHistory();
+
+  const changePlanHandler = () => {
+    history.push("/change-plan");
+  };
+  const addProductFeedHandler = () => {
+    history.push("/add-product-feed");
+  };
+  const editSettingsHandler = () => {
+    history.push("/edit-settings");
+  };
+  const updateProductFeedsHandler = () => {
+    history.push("/update-product-feeds");
+  };
+
   return (
     <header className="header m-10">
       <div className="d-flex align-items-center">
@@ -12,48 +28,54 @@ const Header = () => {
           <p className="m-0 t-xsm light-txt">by Awesome store</p>
         </div>
       </div>
+      {/* <button onClick={changePlanHandler}>Change</button> */}
 
-      <div className="btn-container">
+      <div className="bttn-container">
         <Button
-          className="btn t-xsm"
-          buttonStyle="btn-green"
-          buttonSize="btn-md"
+          onClick={changePlanHandler}
+          className="bttn t-xsm"
+          buttonStyle="bttn-green"
+          buttonSize="bttn-md"
         >
           Change Plan
         </Button>
         <Button
-          className="btn t-xsm"
-          buttonStyle="btn-light-green"
-          buttonSize="btn-lg"
+          onClick={addProductFeedHandler}
+          className="bttn t-xsm"
+          buttonStyle="bttn-light-green"
+          buttonSize="bttn-lg"
         >
           Add a product feed
         </Button>
         <Button
-          className="btn t-xsm"
-          buttonStyle="btn-light-green"
-          buttonSize="btn-md"
+          onClick={editSettingsHandler}
+          className="bttn t-xsm"
+          buttonStyle="bttn-light-green"
+          buttonSize="bttn-md"
         >
           Edit settings
         </Button>
         <Button
-          className="btn t-xsm"
-          buttonStyle="btn-light-green"
-          buttonSize="btn-lg"
+          onClick={updateProductFeedsHandler}
+          className="bttn t-xsm"
+          buttonStyle="bttn-light-green"
+          buttonSize="bttn-lg"
         >
           Update products & feeds
         </Button>
         <Button
-          className="btn t-xsm"
-          buttonStyle="btn-grey"
-          buttonSize="btn-sm"
+          disabled={true}
+          className="bttn t-xsm"
+          buttonStyle="bttn-grey"
+          buttonSize="bttn-sm"
         >
           Edit Google
         </Button>
 
         <Button
-          className="btn t-xsm"
-          buttonStyle="btn-white"
-          buttonSize="btn-sm"
+          className="bttn t-xsm"
+          buttonStyle="bttn-white"
+          buttonSize="bttn-sm"
         >
           <i className="fas fa-user light-txt"></i> Kamal Ali{" "}
           <i className="fas fa-chevron-down"></i>

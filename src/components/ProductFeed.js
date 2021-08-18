@@ -1,7 +1,8 @@
 import "./ProductFeed.css";
-import Card from "./components/Card";
-import LightGreyBg from "./components/LightGreyBg";
-import { Button } from "./components/Button";
+import Card from "./Card";
+import LightGreyBg from "./LightGreyBg";
+import { Button } from "./Button";
+// import Table from "./Table";
 
 const ProductFeed = () => {
   return (
@@ -12,6 +13,7 @@ const ProductFeed = () => {
           <i className="fas fa-arrow-circle-left"></i> Back to shopify admin
         </p>
       </div>
+      {/* <Table /> */}
       <LightGreyBg className="m-tb-30 p-15">
         <div className="p-secnd dark-txt t-sm">
           <span>ID</span>
@@ -42,9 +44,9 @@ const ProductFeed = () => {
           <i className="fas fa-trash-alt red"></i>{" "}
         </span>
         <Button
-          className="btn"
-          buttonStyle="btn-light-green"
-          buttonSize="btn-sm"
+          className="bttn"
+          buttonStyle="bttn-light-green"
+          buttonSize="bttn-sm"
         >
           Update
         </Button>

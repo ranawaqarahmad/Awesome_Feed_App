@@ -1,13 +1,14 @@
 import Faq from "./Faq";
-import Hwta from "./Hwta";
-import Wtdn from "./Wtdn";
+import Review from "./Review";
+import WhatNext from "./WhatNext";
 import "./BottomSection.css";
+
 const BottomSection = () => {
   return (
     <div className="bottom-section m-tb-30">
-      <Wtdn />
+      <WhatNext />
       <Faq />
-      <Hwta />
+      <Review />
     </div>
   );
 };

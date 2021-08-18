@@ -1,8 +1,8 @@
 import { Button } from "./Button";
 import Card from "./Card";
 import LightGreyBg from "./LightGreyBg";
-import ImgStar from "../components/images/stars.png";
-const Hwta = () => {
+import ImgStar from "./assets/images/stars.png";
+const Review = () => {
   return (
     <Card className="m-10 txt-center">
       <LightGreyBg className="p-45">
@@ -22,9 +22,9 @@ const Hwta = () => {
 
       <Button
         customClass="m-t--10"
-        className="btn"
-        buttonStyle="btn-light-green"
-        buttonSize="btn-xlg"
+        className="bttn"
+        buttonStyle="bttn-light-green"
+        buttonSize="bttn-xlg"
       >
         Leave a review
       </Button>
@@ -32,4 +32,4 @@ const Hwta = () => {
   );
 };
 
-export default Hwta;
+export default Review;

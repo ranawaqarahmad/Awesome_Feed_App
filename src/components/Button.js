@@ -1,16 +1,23 @@
 import "./Button.css";
 
 const STYLES = [
-  "btn-green",
-  "btn-light-green",
-  "btn-grey",
-  "btn-white",
-  "btn-blue",
+  "bttn-green",
+  "bttn-light-green",
+  "bttn-grey",
+  "bttn-white",
+  "bttn-blue",
 ];
 
-const SIZES = ["btn-sm", "btn-md", "btn-lg", "btn-xlg"];
+const SIZES = ["bttn-sm", "bttn-md", "bttn-lg", "bttn-xlg"];
 
-export const Button = ({ customClass, children, buttonStyle, buttonSize }) => {
+export const Button = ({
+  onClick,
+  customClass,
+  children,
+  buttonStyle,
+  buttonSize,
+  disabled,
+}) => {
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
     : STYLES[0];
@@ -19,7 +26,9 @@ export const Button = ({ customClass, children, buttonStyle, buttonSize }) => {
 
   return (
     <button
-      className={`btn ${customClass} ${checkButtonStyle} ${checkButtonSize}`}
+      disabled={disabled}
+      onClick={onClick}
+      className={`bttn ${customClass} ${checkButtonStyle} ${checkButtonSize}`}
     >
       {children}
     </button>

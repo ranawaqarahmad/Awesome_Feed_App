@@ -1,7 +1,7 @@
 import { Button } from "./Button";
 import Card from "./Card";
 
-const Wtdn = () => {
+const WhatNext = () => {
   return (
     <Card className="m-10">
       <div className="d-main">
@@ -9,7 +9,7 @@ const Wtdn = () => {
         <p className="light-txt t-xsm">
           If you don’t have a product catalog, you have to create one:
         </p>
-        <Button className="btn" buttonStyle="btn-blue" buttonSize="btn-xlg">
+        <Button className="bttn" buttonStyle="bttn-blue" buttonSize="bttn-xlg">
           Create product catalog in business manager
         </Button>
         <p className="light-txt t-xsm">
@@ -25,4 +25,4 @@ const Wtdn = () => {
   );
 };
 
-export default Wtdn;
+export default WhatNext;
