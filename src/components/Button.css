@@ -6,7 +6,10 @@
   --black: #000;
   --blue: #0071ff;
 }
-
+.form-check-input:checked {
+  background-color: var(--light-green) !important;
+  border-color: var(--light-green) !important;
+}
 .bttn {
   border-radius: 15px;
   text-align: center;
@@ -17,14 +20,33 @@
 }
 
 .bttn:hover {
+  background-color: var(--green);
+  border: 1px solid var(--green);
+  transform: scale(1.1) translateY(-5px);
+  box-shadow: 0px 11px 17px #d3dae270;
+  opacity: 0.8;
+}
+
+.bttn-outline:hover {
+  background-color: var(--white);
+  border: 1px solid var(--light-green);
+  color: var(--light-green);
   transform: scale(1.1) translateY(-5px);
   box-shadow: 0px 11px 17px #d3dae270;
   opacity: 0.8;
 }
 
 .bttn:active {
+  background-color: var(--green);
+  border: 1px solid var(--green);
   transform: scale(1) translateY(5px);
   box-shadow: 0px 11px 17px #d3dae270;
+}
+
+.bttn-outline {
+  background-color: var(--white);
+  border: 1px solid var(--light-green);
+  color: var(--light-green);
 }
 
 .bttn-green {
@@ -60,26 +82,18 @@
 button:disabled {
   cursor: not-allowed;
   transition: none;
+  background-color: var(--grey);
+  border: 1px solid var(--grey);
+  color: var(--white);
 }
 
 button:disabled:hover {
   transform: none;
 }
-/* .btn-sm {
-  padding: 15px 22px;
-}
 
-.btn-md {
-  padding: 15px 32px;
+.bttn-sub {
+  padding: 7px 34px;
 }
-
-.btn-lg {
-  padding: 15px 40px;
-}
-
-.btn-xlg {
-  padding: 15px 43px;
-} */
 
 @media screen and (max-width: 1024px) {
   .bttn {

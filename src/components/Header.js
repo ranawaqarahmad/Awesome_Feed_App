@@ -1,5 +1,5 @@
 import { useHistory } from "react-router-dom";
-import { Button } from "./Button";
+import Button from "./Button";
 import "./Header.css";
 import Logo from "./assets/images/logo.png";
 
@@ -24,7 +24,7 @@ const Header = (props) => {
       <div className="d-flex align-items-center">
         <img src={Logo} alt="logo" />
         <div>
-          <h1 className="m-0 t-md t-i">Awesome Feed App</h1>
+          <h1 className="m-0 t-md txt-italic">Awesome Feed App</h1>
           <p className="m-0 t-xsm light-txt">by Awesome store</p>
         </div>
       </div>
@@ -34,7 +34,7 @@ const Header = (props) => {
         <Button
           onClick={changePlanHandler}
           className="bttn t-xsm"
-          buttonStyle="bttn-green"
+          buttonStyle="bttn-light-green"
           buttonSize="bttn-md"
         >
           Change Plan

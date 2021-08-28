@@ -1,0 +1,69 @@
+:root {
+  --green: #02976c;
+  --light-green: #12b596;
+  --grey: #acacac;
+  --light-grey-1: #e5e5e5;
+  --ilght-grey-2: #f5f5f5;
+  --black: #000;
+  --blue: #0071ff;
+  --dark-1: #1d2c38;
+  --light: #3c505e;
+  --yellow: #ffb229;
+}
+
+.myMenuClassName > div {
+  background-color: #fff !important;
+}
+.myMenuClassName > div:hover {
+  color: #12b596 !important;
+}
+.myMenuClassName {
+  box-shadow: 0px 11px 17px #d3dae270 !important;
+  border-radius: 15px !important;
+  border: none !important;
+}
+.myArrowClassName {
+  top: 25px !important;
+}
+.yellow {
+  color: var(--yellow);
+}
+.secondary-heading {
+  font-size: 18px;
+}
+input,
+input::placeholder,
+input:focus,
+.txt-light {
+  color: var(--light) !important;
+  font-size: 13px !important;
+}
+
+.light-grey-bg {
+  background-color: var(--ilght-grey-2) !important;
+  border-radius: 15px !important;
+  border-color: var(--ilght-grey-2) !important;
+  padding: 16px 15px !important;
+}
+.mySelect {
+  padding: 16px 15px !important;
+  border-radius: 15px !important;
+}
+.currencySelect {
+  color: var(--light) !important;
+  font-size: 13px !important;
+}
+
+.txt-md {
+  font-size: 16px;
+}
+
+.txt-dark-1 {
+  color: var(--dark-1);
+  font-weight: 500;
+}
+
+.rounded-div {
+  border-radius: 15px;
+  border: 1px solid var(--light-grey-1);
+}

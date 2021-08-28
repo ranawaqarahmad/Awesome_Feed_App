@@ -2,8 +2,8 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Fira Sans", sans-serif;
-  background: #edf0f4 0% 0% no-repeat padding-box;
+  font-family: "Fira Sans", sans-serif !important;
+  background: #edf0f4 0% 0% no-repeat padding-box !important;
 }
 
 .App {
@@ -12,7 +12,9 @@ body {
   margin: 0 auto;
   padding: 2rem;
 }
-
+.txt-italic {
+  font-style: italic;
+}
 /* Custom Classes */
 .m-10 {
   margin: 10px;
@@ -34,29 +36,6 @@ body {
 }
 .p-45 {
   padding: 45px;
-}
-.txt-center {
-  text-align: center;
-}
-
-.d-flex {
-  display: flex;
-}
-.f-dir-col {
-  flex-direction: column;
-}
-.justify-content-between {
-  justify-content: space-between;
-}
-.justify-content-evenly {
-  justify-content: space-evenly;
-}
-.justify-content-around {
-  justify-content: space-around;
-}
-
-.align-items-center {
-  align-items: center;
 }
 
 .inline-ul {
@@ -85,14 +64,15 @@ body {
 }
 
 .green {
-  color: #3bb54a;
+  color: var(--light-green);
 }
 .blue {
   color: #2655aa;
 }
+
 /* Text Size */
 .primary-heading {
-  font-size: 2rem;
+  font-size: 2rem !important;
 }
 
 .t-md {
@@ -106,22 +86,6 @@ body {
 .t-xsm {
   font-size: 14px;
   line-height: 1.7;
-}
-
-/* Text Style */
-
-.t-i {
-  font-style: italic;
-}
-
-/* Font Weight */
-
-.semibold {
-  font-weight: 600;
-}
-
-.bold {
-  font-weight: 800;
 }
 
 @media screen and (max-width: 1024px) {

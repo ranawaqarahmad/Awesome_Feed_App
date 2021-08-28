@@ -1,4 +1,4 @@
-import { Button } from "./Button";
+import Button from "./Button";
 import Card from "./Card";
 
 const WhatNext = () => {
@@ -12,7 +12,7 @@ const WhatNext = () => {
         <Button className="bttn" buttonStyle="bttn-blue" buttonSize="bttn-xlg">
           Create product catalog in business manager
         </Button>
-        <p className="light-txt t-xsm">
+        <p className="light-txt t-xsm lh-lg mt-4">
           Follow the instructions. When asked for a product URL , copy and paste
           the <span className="blue">Feed URL</span> that provided above.
         </p>

@@ -4,3 +4,22 @@
   border-radius: 15px;
   /* padding: 25px; */
 }
+
+td,
+th {
+  padding: 25px !important;
+}
+
+thead tr td:first-child {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+thead tr td:last-child {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+tbody tr {
+  border-bottom: 0.5px solid #e8e8e8;
+}

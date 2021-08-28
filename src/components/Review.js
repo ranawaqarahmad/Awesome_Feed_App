@@ -1,10 +1,10 @@
-import { Button } from "./Button";
+import Button from "./Button";
 import Card from "./Card";
 import LightGreyBg from "./LightGreyBg";
 import ImgStar from "./assets/images/stars.png";
 const Review = () => {
   return (
-    <Card className="m-10 txt-center">
+    <Card className="m-10 text-center">
       <LightGreyBg className="p-45">
         <div className="h-main">
           <h1 className="dark-txt primary-heading">Happy with the app?</h1>
