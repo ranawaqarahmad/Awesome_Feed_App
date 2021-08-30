@@ -1,7 +1,6 @@
-import Card from "./Card";
-
-import LightGreyBg from "./LightGreyBg";
-import Button from "./Button";
+import Card from "../components/Card";
+import LightGreyBg from "../components/LightGreyBg";
+import Button from "../components/Button";
 import styles from "./AddProductFeed.module.css";
 
 import Dropdown from "react-dropdown";

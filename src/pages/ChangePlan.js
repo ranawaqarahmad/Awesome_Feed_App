@@ -1,6 +1,6 @@
 import { Fragment } from "react";
-import Card from "./Card";
-import ChangePlanTable from "./ChangePlanTable";
+import Card from "../components/Card";
+import ChangePlanTable from "../components/ChangePlanTable";
 
 const ChangePlan = () => {
   return (

@@ -1,6 +1,6 @@
 import { Fragment } from "react";
-import BottomSection from "./BottomSection";
-import ProductFeed from "./ProductFeed";
+import BottomSection from "../components/BottomSection";
+import ProductFeed from "../components/ProductFeed";
 
 const Home = () => {
   return (
